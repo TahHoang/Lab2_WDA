@@ -47,3 +47,55 @@ body {
   color: #333;
   font-weight: bold;
 }
+
+/* Main Content Section */
+.main-content {
+  padding: 30px;
+}
+
+.main-content h2 {
+  font-size: 1.8em;
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Speakers Section */
+.speakers-section {
+  margin-bottom: 30px;
+}
+
+.speakers-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.speakers-list li {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.speaker-name {
+  color: #c8a882;
+  font-weight: normal;
+}
+
+/* Gift Section */
+.gift-section h2 {
+  margin-top: 30px;
+}
+
+.gift-section p {
+  margin-bottom: 12px;
+  font-size: 1em;
+  color: #333;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact em {
+  font-style: italic;
+}
