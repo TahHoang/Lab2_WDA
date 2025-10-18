@@ -158,3 +158,32 @@ body {
   font-size: 0.9em;
   color: #666;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .main-content {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .sidebar {
+    min-width: auto;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-text h1 {
+    font-size: 2em;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
