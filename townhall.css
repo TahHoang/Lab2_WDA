@@ -99,3 +99,33 @@ body {
 .contact em {
   font-style: italic;
 }
+
+/* Sidebar Section */
+.sidebar {
+  background-color: #f5f5dc;
+  padding: 30px;
+}
+
+.sidebar h2 {
+  font-size: 1.6em;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.note-section {
+  margin-bottom: 25px;
+}
+
+.note-section h3 {
+  font-size: 1.1em;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.note-section p {
+  font-size: 0.95em;
+  color: #333;
+  line-height: 1.5;
+}
