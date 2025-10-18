@@ -18,6 +18,8 @@ body {
   margin: 0 auto;
   background-color: #fff;
   border: 3px solid #8b6f47;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header Section */
@@ -25,6 +27,9 @@ body {
   background: linear-gradient(to bottom, #fff 0%, #f5f5dc 100%);
   border-bottom: 3px solid #c8a882;
   padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .logo {
@@ -48,9 +53,18 @@ body {
   font-weight: bold;
 }
 
+/* Content Wrapper - Flexbox Layout */
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+}
+
 /* Main Content Section */
 .main-content {
+  flex: 2;
   padding: 30px;
+  border-right: 1px solid #ddd;
 }
 
 .main-content h2 {
@@ -102,8 +116,10 @@ body {
 
 /* Sidebar Section */
 .sidebar {
+  flex: 1;
   background-color: #f5f5dc;
   padding: 30px;
+  min-width: 300px;
 }
 
 .sidebar h2 {
